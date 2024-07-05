@@ -1,0 +1,21 @@
+/* Switzer_Medium fonts */
+@font-face {
+  font-family: Switzer_Variable;
+  src: url(../fonts/Switzer_Complete/Switzer-Variable.ttf);
+}
+
+@font-face {
+  font-family: Switzer_Medium;
+  src: url(../fonts/Switzer_Complete/Switzer-Medium.otf);
+}
+
+/* Boska_Regular fonts  */
+@font-face {
+  font-family: Boska_Variable;
+  src: url(../fonts/Boska_Complete/Boska-Variable.ttf);
+}
+
+@font-face {
+  font-family: Boska_VariableItalic;
+  src: url(../fonts/Boska_Complete/Boska-VariableItalic.ttf);
+}

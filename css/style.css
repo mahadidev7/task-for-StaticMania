@@ -205,4 +205,101 @@ p {
     align-items: center;
 }
 
-/* welcomeID style is end  */
+/* welcomeID section style is end  */
+/* natural section style is start */
+.natural{
+    width: 100%;
+    height: 850px;
+}
+/* natural section style is end  */
+
+/* about section style is start */
+
+#aboutID {
+    background-image: url(../assets/about_BG.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    padding: 233px 0 448px 0;
+}
+.about_wrapper{
+    width: 1084px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.about_wrapper h4{
+    color: var(--Secondary_color);
+    text-align: center;
+    font-family: Switzer_Variable;
+    font-weight: 400 !important;
+    margin-bottom: 31px;
+    font-size: 24px;
+}
+.about_wrapper p{
+    color: #678784;
+    text-align: center;
+    font-family: Boska_Variable;
+    font-weight: 400 !important;
+    font-size: 68px;
+    text-transform: capitalize;
+    line-height: 88.4px;
+}
+.about_wrapper p span{
+    color: #fff;
+    font-size: 68px;
+    text-transform: capitalize;
+    line-height: 88.4px;
+}
+.waveImg{
+    width: 100%;
+}
+/* about section style is end */
+/* uniqueRoomsID section style is end */
+#uniqueRoomsID{
+    background: #fff;
+}
+/* uniqueRoomsID section style is end */
+
+/* Subscript section style is start */
+.subscript_warper{
+    background-image: url(../assets/subscribe_BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    margin: 103px 0 91px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 169px 0;
+}
+.subscript_warper p, .subscript_warper p span{
+    font-family: Boska_Variable;
+    font-size: 68px;
+    text-transform: capitalize;
+    width: 603px;
+    text-align: center;
+    line-height: 88.4px;
+    color: #fff;
+}
+.subscript_warper p span{
+    color: var(--Secondary_color);
+}
+.subscript_warper span{
+    color: #fff;
+    font-family: Switzer_Variable;
+    width: 400px;
+    text-align: center;
+    margin: 21px 0 60px 0;
+}
+.form_box{
+    background-color: #fff;
+    width: 570px;
+    display: flex;
+}
+/* Subscript section style is end */

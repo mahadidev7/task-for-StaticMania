@@ -1,9 +1,10 @@
-/* common style start */
+/* common style is start */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 18px;
+    color: var(--Primary_color);
 }
 
 :root {
@@ -12,6 +13,7 @@
 }
 
 body {
+    background-color: var(--Primary_color);
     background-image: url(../assets/BG.png);
     background-position: center;
     background-size: cover;
@@ -23,6 +25,7 @@ body {
     max-width: 1350px;
     display: block;
     margin: auto;
+    border: 1px solid #76ff694b;
 }
 
 ul,
@@ -45,9 +48,10 @@ p {
 }
 
 
-/* common style end */
+/* common style is end */
 
-/* navbar style start.... */
+
+/* Header section style is start.... */
 #topHeader_ID {
     background-image: url(../assets/hero_BG.png);
     background-position: center;
@@ -76,12 +80,13 @@ p {
     gap: 54px;
 }
 
-/* navbar style end.... */
-/* hero style start.... */
+/* Header section style is end.... */
+/* Hero section style is start.... */
 .hero {
     position: relative;
     display: block;
 }
+
 .hero .hero_text {
     display: flex;
     flex-direction: column;
@@ -93,6 +98,7 @@ p {
     font-size: 262px;
     text-align: center;
     line-height: 200px;
+    color: #fff;
 }
 
 .hero_text p.title:nth-child(1) {
@@ -111,6 +117,9 @@ p {
     font-size: 32px;
     text-align: center;
     margin-top: 25px;
+    color: #fff;
+    font-family: Boska_Variable !important;
+    font-weight: 700;
 }
 
 .hero_text p.title:nth-child(4) {
@@ -130,7 +139,8 @@ p {
     width: 570px;
     max-width: 90%;
 }
-.playIcon{
+
+.playIcon {
     position: absolute;
     top: 50%;
     left: 100%;
@@ -141,3 +151,58 @@ p {
     -o-transform: translate(-50%, -30%);
     cursor: pointer;
 }
+
+/* Hero section style is end  */
+
+/* wrapper_box style start */
+.wrapper_box{
+    display: grid;
+    gap: 5px;
+    column-gap: 30px;
+    grid-template-columns: 3fr 2fr;
+}
+
+/* wrapper_box style end */
+
+/* welcome section style is start  */
+#welcomeID {
+    display: block;
+    background: #fff;
+    width: 100%;
+    padding: 107px 0 125px 0;
+}
+.welcome_wrapper .welcome_wrapper_Left img.welcome_Icon{
+    margin-left: -18px;
+
+}
+.welcome_wrapper .welcome_wrapper_Left p{
+    width: 609px;
+    font-size: 24px;
+    color: var(--Primary_color);
+}
+.welcome_elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 104px;
+}
+.welcome_elements_item p{
+    font-size: 24px;
+}
+.welcome_elements_item .counter{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    gap: 12px;
+}
+.welcome_elements_item .counter h3{
+    font-size: 100px;
+    line-height: 75px;
+    font-family: Boska_Variable;
+}
+.welcome_wrapper.wrapper_box{
+    align-items: center;
+}
+
+/* welcomeID style is end  */

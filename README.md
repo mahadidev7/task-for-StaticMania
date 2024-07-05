@@ -1,6 +1,1 @@
-# task-for-StaticMania
-# task-for-StaticMania
-# task-for-StaticMania
-# task-for-StaticMania
-# task-for-StaticMania
-# task-for-StaticMania
+Please go to the link for preview: https://staticmania-mahadidev7.vercel.app/
